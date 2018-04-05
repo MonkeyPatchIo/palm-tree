@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Universal</title>
-    <link>http://arnaud.tlse.gitlab.io/bluebum/categories/</link>
+    <link>http://www.monkeypatch.io/palm-tree/categories/</link>
     <description>Recent content in Categories on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://arnaud.tlse.gitlab.io/bluebum/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.monkeypatch.io/palm-tree/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lorem</title>
-      <link>http://arnaud.tlse.gitlab.io/bluebum/categories/lorem/</link>
+      <link>http://www.monkeypatch.io/palm-tree/categories/lorem/</link>
       <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
       
-      <guid>http://arnaud.tlse.gitlab.io/bluebum/categories/lorem/</guid>
+      <guid>http://www.monkeypatch.io/palm-tree/categories/lorem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming</title>
-      <link>http://arnaud.tlse.gitlab.io/bluebum/categories/programming/</link>
+      <link>http://www.monkeypatch.io/palm-tree/categories/programming/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>http://arnaud.tlse.gitlab.io/bluebum/categories/programming/</guid>
+      <guid>http://www.monkeypatch.io/palm-tree/categories/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pseudo</title>
-      <link>http://arnaud.tlse.gitlab.io/bluebum/categories/pseudo/</link>
+      <link>http://www.monkeypatch.io/palm-tree/categories/pseudo/</link>
       <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
       
-      <guid>http://arnaud.tlse.gitlab.io/bluebum/categories/pseudo/</guid>
+      <guid>http://www.monkeypatch.io/palm-tree/categories/pseudo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Starting</title>
-      <link>http://arnaud.tlse.gitlab.io/bluebum/categories/starting/</link>
+      <link>http://www.monkeypatch.io/palm-tree/categories/starting/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
-      <guid>http://arnaud.tlse.gitlab.io/bluebum/categories/starting/</guid>
+      <guid>http://www.monkeypatch.io/palm-tree/categories/starting/</guid>
       <description></description>
     </item>
     

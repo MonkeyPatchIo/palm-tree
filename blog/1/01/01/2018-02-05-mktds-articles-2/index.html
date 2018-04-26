@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MKTD#1 Expérimentation du format &amp;#35;Feign &amp;#35;Retrofit</title>
+  <meta name="author" content="" />
+
+  
+  <meta name="keywords" content="Expertise informatique, Dévelopement informatique">
+  
+
+  
+  <meta name="description" content="Société de conseil et d&#39;expertise en informatique spécialisée dans les nouvelles technologies.">
+  
+
+  <meta name="generator" content="Hugo 0.40.1" />
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  
+  <link href="http://www.monkeypatch.io/palm-tree/css/animate.css" rel="stylesheet">
+
+  
+  
+    <link href="http://www.monkeypatch.io/palm-tree/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+  
+
+  
+  <link href="http://www.monkeypatch.io/palm-tree/css/custom.css" rel="stylesheet">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css">
+
+  
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+  <link rel="shortcut icon" href="http://www.monkeypatch.io/palm-tree/img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="http://www.monkeypatch.io/palm-tree/img/apple-touch-icon.png" />
+  
+
+  <link href="http://www.monkeypatch.io/palm-tree/css/owl.carousel.css" rel="stylesheet">
+  <link href="http://www.monkeypatch.io/palm-tree/css/owl.theme.css" rel="stylesheet">
+
+  <link rel="alternate" href="http://www.monkeypatch.io/index.xml" type="application/rss+xml" title="MonkeyPatch - Expertise Informatique">
+
+  
+  <meta property="og:title" content="MKTD#1 Expérimentation du format &amp;#35;Feign &amp;#35;Retrofit" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-2//" />
+  <meta property="og:image" content="img/logo.png" />
+
+</head>
+
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="http://www.monkeypatch.io/palm-tree/">
+                    <img src="http://www.monkeypatch.io/palm-tree/img/logo.png" alt="MKTD#1 Expérimentation du format &amp;#35;Feign &amp;#35;Retrofit logo" class="hidden-xs hidden-sm">
+                    <img src="http://www.monkeypatch.io/palm-tree/img/logo-small.png" alt="MKTD#1 Expérimentation du format &amp;#35;Feign &amp;#35;Retrofit logo" class="visible-xs visible-sm">
+                    <span class="sr-only">MKTD#1 Expérimentation du format &amp;#35;Feign &amp;#35;Retrofit - aller à l&#39;accueil</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Basculer la Navigation</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/palm-tree/">Home</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/palm-tree/blog/">Blog</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/palm-tree/faq/">FAQ</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/palm-tree/contact/">Contact</a>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+
+                </span>
+                    </div>
+                </form>
+
+            </div>
+            
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+        </header>
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>MKTD#1 Expérimentation du format &amp;#35;Feign &amp;#35;Retrofit</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12" id="blog-post">
+
+                        <p class="text-muted text-uppercase mb-small text-right">January 1, 0001</p>
+
+                        <div id="post-content">
+                          <h1 id="mktd-1-expérimentation-du-format-feign-retrofit">MKTD#1 : Expérimentation du format #Feign #Retrofit</h1>
+
+<p>En juin 2016, au gré de quelques recherches sur le net, on a découvert un petit espace de coworking nommé <a href="https://www.harrycow.com/">HarryCow</a>, qui venait de se créer, à peine 15 jours avant. Les gérants d’HarryCow, Nathalie et Benoît ne connaissaient pas bien l’univers des hackathons ou des Techdays mais le courant est passé. C&rsquo;était parti pour une expérimentation de notre concept, chez eux, autour de Feign et Retrofit !</p>
+
+<p>Les coachs, <a href="https://twitter.com/EmmanuelVinas">Emmanuel</a> et <a href="https://twitter.com/ilaborie">Igor</a> ont alors préparé une série d’exos pour que chacun puisse apprendre et partager réellement en équipe.
+Bien que nous souhaitions un événement avec un niveau soutenu, il ne fallait pas non plus qu’il soit sans vie. On a décidé que les MKTD seraient à notre image, articulés autour de la bienveillance, du partage et de la décontraction (pas la peine de se mettre de pression).</p>
+
+<p>Le 8 juillet 2016 s’est déroulé le premier MKTD. Une petite dizaine de ‘TechAddicts’ (principalement des personnes de notre réseau) a été répartie en 2 équipes pour coder les exos. Puis à la fin de chacun d’eux, on demandait aux TechAddicts de pitcher les intérêts et les performances des résultats obtenus.</p>
+
+<p><img src="https://lh3.googleusercontent.com/rzJgydSqOvXJ2y7_Bn4x6hXFTnSM1TWqdkkM4XTehib17qqVIAea7JtIt0OcDT5yqtZFIRBjpx6FEqOfS4a_W-TZMmIIf2aiVDFxNBwguHNFpNq03e-BcUSJWhgvQFlhpr7_VjVbZ-qOZEtdOyW4qtvpwvrW4OLYONZ5nXG6U65CJX9u7_c2TCzlj940SGJsV4s5SrO2_ZNyrdR6C7ExflyC53jI1tLfTY1JshH6ygPQR8gT5YsR9-LMJibH_OpQ1dR8H0g98vGENCg2CoS4FfKSuXkDR-cjpgTwvbJsDRXicnUUQ3yB_F2S4IlpMQljDjvkSpQHyEY8QSyUJJXsEEbLGYkUU7VL8rlKkeCmzIQNE4dXsmERpFMK8jFP3cZ5Y0kbcnZu8pTlSLDwXcedMFwXK3uWHlekd2YcRzOiMm2QVRclIkaUkzX2wzlFpgLFWJU4YR-NF8VVmODiiU-O4OBy6Ixkrqrx2L2K2iSSym50LW-QEfDYvx_O2HrkWmq9DCVsb2R2QLx-ydWPPNP0WtR-6iGSjtmBA2rZ4UqeUDwfl1rZlp_EVT2BkbKKkXwwX88tO_uUlmYJoEY5_UdRndFF-gCsAV4h2nMwBKPG7LQEzqVG-Fmp2y4_nahOGL784smMi9BfrniqkDrgjxTgqCTrjTZ2itEE=w1499-h903-no" alt="Tech addicts" /></p>
+
+<h2 id="bilan-de-cette-première-expérimentation">Bilan de cette première expérimentation :</h2>
+
+<p>Sur cette première édition, on n’était pas nombreux, mais le format a séduit !</p>
+
+<p>Le concept de faire des exos en équipe sur une journée à beaucoup plu, mais on a eu les yeux plus gros que le ventre car les participants n’ont pu en faire que la moitié. On s’est dit qu’il faudrait ajuster le volume.</p>
+
+<p>Pour essayer de définir quelle était la meilleure techno, à la fin de chaque pitch, les coachs et les participants étaient appelés à voter. Euh… ça n’a pas été très convaincant.</p>
+
+<p>On a également initié la rédaction d’articles pour partager notre expérience avec ceux qui n’ont pas pu venir :
+<a href="{{ site.baseurl_root }}
+2016/08/09/MKTD-1-feign-vs-retrofit-&amp;-58;-1-prise-en-main.html">Fein &amp; Retrofit 1</a>
+<a href="{% post_url 2016-08-10-MKTD#1-feign-vs-retrofit-&amp;#58;-2-aller-plus-loin %}">Fein &amp; Retrofit 2</a></p>
+
+<p>“ Good job guys”</p>
+
+<p><img src="https://lh3.googleusercontent.com/gpKAtXJq8cjL160kMpiih1-0MmZRd7piSX-LR3e-ZovPDx48oU0mHegPCcRd2PTjiOTN-5WUbr0ANNRuUxk8BOiqL75_8rLIRNrXf0yrlxZLUgQVLiFPJfT1Ld5uOgIFVNC2zR69gaTF62f-4dN9KecSXpLwYOO6S6yZJohr41b_5MK9lhVdVTnFKXrUlHQVkDz0Gwoh6p8dY8FVSuEYS4dthNB-WHPhOIQnsZA2CEffWZoRcoWMPagAoljaIgMmisncuKZq4WiO7rX1mgx2saR3toKMHpcFxi1zoDroFbSR05eDJWIfdGFouGJs1HcjAz-10dL8ZY9Xcy31aev9I-stlvlSNAd1M_vIMry_rGmji_kjJk0wM1V0kFq0zuVseDXD1qSJj716HkP4J1GpcK1V9Skehx4FeAjwsyVg6PLxQFnLKx_wX1PtU3lmV4VDUOMVUjzGMAJjkZ8XH2p2bs5nfTux6OCkCtlFe9h7kqwjc2rytZ43j8Nw9MCK7U8CSIoEs2fpnphB-08YIpnIK-x22o3cCkan6ffTfKkiX8fe99ovRYW8-Nzgq8DhxkkVCGXACtklWbHSMnWN8IbIkhFhOYqDU1UdWakIpf8U8R-uTPLeeZysKueBBRJP7qqwZTmgLF3OeHPIobBDtJ0X-ISESPimbNWD=w300-h230-no" alt="" /></p>
+
+<blockquote>
+<p>“Super encourageant pour en faire d’autres”</p>
+</blockquote>
+
+<p>← revenir à <a href="{% post_url 2018-02-05-MKTDs-articles-1 %}">l’article principal</a> → Article suivant <a href="{% post_url 2018-02-05-MKTDs-articles-3 %}">MKTD#2</a></p>
+
+<p></p>
+                        </div>
+                        
+                        
+
+                    </div>
+                    
+
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        
+        <div class="col-md-4 col-sm-6">
+            <h4>À propos de nous</h4>
+
+            Société de conseil et d'expertise en informatique spécialisée dans les nouvelles technologies.
+        <br>
+        <br>MonkeyPatch s’entoure uniquement d’experts en informatique dans les métiers du Web, du Mobile et du Big Data.
+      
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+        <div class="col-md-4 col-sm-6">
+
+             
+            <h4>Billets récents</h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="http://www.monkeypatch.io/palm-tree/blog/2017/08/03/jotb-malaga-2017/">
+                          
+                            <img src="http://www.monkeypatch.io/palm-tree/img/jotb-2017/panoramic.jpg" class="img-responsive" alt="J On The Beach 2017 — Review">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="http://www.monkeypatch.io/palm-tree/blog/2017/08/03/jotb-malaga-2017/">J On The Beach 2017 — Review</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="http://www.monkeypatch.io/palm-tree/blog/2017/05/02/makingof_css_is_awesome/">
+                          
+                            <img src="http://www.monkeypatch.io/palm-tree/img/placeholder.png" class="img-responsive" alt="Making Of &#39;CSS is Awesome !&#39;">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="http://www.monkeypatch.io/palm-tree/blog/2017/05/02/makingof_css_is_awesome/">Making Of &#39;CSS is Awesome !&#39;</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="http://www.monkeypatch.io/palm-tree/blog/2017/03/07/ngvikings-2017/">
+                          
+                            <img src="http://www.monkeypatch.io/palm-tree/img/placeholder.png" class="img-responsive" alt="ngVikings 2017">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="http://www.monkeypatch.io/palm-tree/blog/2017/03/07/ngvikings-2017/">ngVikings 2017</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+             
+
+        </div>
+        
+
+        
+        <div class="col-md-4 col-sm-6">
+
+          <h4>Contact</h4>
+
+            <strong>MonkeyPatch</strong>
+        <br>31 rue Alsace Lorraine
+        <br>31000, Toulouse
+        <br>
+        <strong>France</strong>
+      </p>
+      
+
+
+            <a href="http://www.monkeypatch.io/palm-tree/contact" class="btn btn-small btn-template-main">Aller à la page de contact</a>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-left">Copyright (c) 2016-2018, MonkeyPatch; all rights reserved.</p>
+            
+            <p class="pull-right">
+              Template par <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.
+              
+
+              Porté sur Hugo par <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
+
+    
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyAo5ce4DkgEvdYjBJLjqDCA_nS4EylydoY&v=3.exp"></script>
+
+<script src="http://www.monkeypatch.io/palm-tree/js/hpneo.gmaps.js"></script>
+<script src="http://www.monkeypatch.io/palm-tree/js/gmaps.init.js"></script>
+<script src="http://www.monkeypatch.io/palm-tree/js/front.js"></script>
+
+
+<script src="http://www.monkeypatch.io/palm-tree/js/owl.carousel.min.js"></script>
+
+<!-- Syntax highlighting -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+  </body>
+</html>

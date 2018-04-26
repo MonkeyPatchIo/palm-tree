@@ -3,33 +3,87 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.monkeypatch.io/palm-tree/blog/2015/10/10/migrate-from-jekyll/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <loc>http://www.monkeypatch.io/palm-tree/blog/2017/08/03/jotb-malaga-2017/</loc>
+    <lastmod>2017-08-03T13:47:08+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.monkeypatch.io/palm-tree/blog/2015/10/02/linked-post/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>http://www.monkeypatch.io/palm-tree/blog/2017/05/02/makingof_css_is_awesome/</loc>
+    <lastmod>2017-05-02T13:47:08+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.monkeypatch.io/palm-tree/blog/2015/09/17/go-is-for-lovers/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+    <loc>http://www.monkeypatch.io/palm-tree/blog/2017/03/07/ngvikings-2017/</loc>
+    <lastmod>2017-03-07T13:47:08+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.monkeypatch.io/palm-tree/blog/2015/08/03/hugo-is-for-lovers/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+    <loc>http://www.monkeypatch.io/palm-tree/blog/2016/08/12/mktd1-feign-vs-retrofit-3-autres-sujets/</loc>
+    <lastmod>2016-08-12T13:47:08+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.monkeypatch.io/palm-tree/blog/2015/06/24/creating-a-new-theme/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+    <loc>http://www.monkeypatch.io/palm-tree/blog/2016/08/10/mktd1-feign-vs-retrofit-2-aller-plus-loin/</loc>
+    <lastmod>2016-08-10T13:47:08+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/blog/2016/08/09/mktd1-feign-vs-retrofit-1-prise-en-main/</loc>
+    <lastmod>2016-08-09T13:47:08+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2016-11-06-devfest-toulouse/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2016-11-27-devoxx-belgium/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/acteur/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/android/</loc>
+    <lastmod>2016-08-12T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2017-04-12-androidmakers/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/androidmakers/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/angular/</loc>
+    <lastmod>2017-03-07T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/angular2/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/aureliajs/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.monkeypatch.io/palm-tree/blog/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <lastmod>2017-08-03T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/brainfuck/</loc>
     <priority>0</priority>
   </url>
   
@@ -43,78 +97,235 @@
   </url>
   
   <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/cookie/</loc>
+    <lastmod>2016-08-10T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/css/</loc>
+    <lastmod>2017-05-02T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/databases/</loc>
+    <lastmod>2017-08-03T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/devfest/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/devoxx/</loc>
+    <lastmod>2017-05-02T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/distributed-systems/</loc>
+    <lastmod>2017-08-03T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.monkeypatch.io/palm-tree/faq/</loc>
   </url>
   
   <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/feign/</loc>
+    <lastmod>2016-08-12T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/functional/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.monkeypatch.io/palm-tree/tags/go/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.monkeypatch.io/palm-tree/tags/golang/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/java/</loc>
+    <lastmod>2016-08-12T13:47:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.monkeypatch.io/palm-tree/tags/hugo/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/jotb/</loc>
+    <lastmod>2017-08-03T13:47:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.monkeypatch.io/palm-tree/tags/ipsum/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/kotlin/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.monkeypatch.io/palm-tree/categories/lorem/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/lolcode/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.monkeypatch.io/palm-tree/tags/programming/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-2/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-3/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-4/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-5/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/mixit/</loc>
+    <lastmod>2017-05-02T13:47:08+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/mktd/</loc>
+    <lastmod>2016-08-12T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-6/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/</loc>
+    <lastmod>2017-08-03T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/monkeytechday/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/nativescript/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/ngvikings/</loc>
+    <lastmod>2017-03-07T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/nodejs/</loc>
+    <lastmod>2017-05-02T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-04-01-mktd#7-brainfuck-vs-lolcode/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-1/</loc>
   </url>
   
   <url>
     <loc>http://www.monkeypatch.io/palm-tree/categories/programming/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <lastmod>2017-08-03T13:47:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.monkeypatch.io/palm-tree/categories/pseudo/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/react/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.monkeypatch.io/palm-tree/categories/starting/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/reactive/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/rest/</loc>
+    <lastmod>2016-08-12T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/retrofit/</loc>
+    <lastmod>2016-08-12T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/rust/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/rx/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/rxjava/</loc>
+    <lastmod>2016-08-12T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/rxjs/</loc>
+    <lastmod>2017-03-07T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/swift/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.monkeypatch.io/palm-tree/tags/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+    <lastmod>2016-08-12T13:47:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.monkeypatch.io/palm-tree/tags/theme/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/tech-addicts/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.monkeypatch.io/palm-tree/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/tech-days/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/techno/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/typescript/</loc>
+    <lastmod>2017-05-02T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.monkeypatch.io/palm-tree/tags/websecurity/</loc>
+    <lastmod>2017-03-07T13:47:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   

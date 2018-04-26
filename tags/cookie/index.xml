@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cookie on MonkeyPatch - Expertise Informatique</title>
+    <link>http://www.monkeypatch.io/palm-tree/tags/cookie/</link>
+    <description>Recent content in Cookie on MonkeyPatch - Expertise Informatique</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 10 Aug 2016 13:47:08 +0200</lastBuildDate>
+    
+	<atom:link href="http://www.monkeypatch.io/palm-tree/tags/cookie/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MKTD#1 Feign vs Retrofit - Part 2 - Aller plus loin</title>
+      <link>http://www.monkeypatch.io/palm-tree/blog/2016/08/10/mktd1-feign-vs-retrofit-2-aller-plus-loin/</link>
+      <pubDate>Wed, 10 Aug 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/blog/2016/08/10/mktd1-feign-vs-retrofit-2-aller-plus-loin/</guid>
+      <description>&lt;!--banner = &#34;http://www.monkeypatch.io/public/images/logos/logo-FeignVsRetrofit.png&#34;--&gt;
+
+&lt;p&gt;Le deuxième défi permet d’adresser des problèmes plus avancés comme :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;L&amp;rsquo;authentification&lt;/li&gt;
+&lt;li&gt;La gestion des erreurs via des &lt;code&gt;Exception&lt;/code&gt; Java&lt;/li&gt;
+&lt;li&gt;L’&lt;em&gt;upload&lt;/em&gt; et le &lt;em&gt;download&lt;/em&gt; de fichiers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

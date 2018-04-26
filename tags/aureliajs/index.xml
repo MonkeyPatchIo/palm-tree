@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aureliajs on MonkeyPatch - Expertise Informatique</title>
+    <link>http://www.monkeypatch.io/palm-tree/tags/aureliajs/</link>
+    <description>Recent content in Aureliajs on MonkeyPatch - Expertise Informatique</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    
+	<atom:link href="http://www.monkeypatch.io/palm-tree/tags/aureliajs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MKTD#2 On remet le couvert autour d’&amp;#35;Angular2 &amp;#35;React &amp;#35;AureliaJS</title>
+      <link>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-3/</guid>
+      <description>&lt;h1 id=&#34;mktd-2-on-remet-le-couvert-autour-d-angular2-react-aureliajs&#34;&gt;MKTD#2 : On remet le couvert autour d’#Angular2 #React #AureliaJS&lt;/h1&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

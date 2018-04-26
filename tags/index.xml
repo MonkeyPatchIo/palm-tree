@@ -1,67 +1,373 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Universal</title>
+    <title>Tags on MonkeyPatch - Expertise Informatique</title>
     <link>http://www.monkeypatch.io/palm-tree/tags/</link>
-    <description>Recent content in Tags on Universal</description>
+    <description>Recent content in Tags on MonkeyPatch - Expertise Informatique</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2015 13:47:08 +0200</lastBuildDate>
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 12 Aug 2016 13:47:08 +0200</lastBuildDate>
     
 	<atom:link href="http://www.monkeypatch.io/palm-tree/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Acteur</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/acteur/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/acteur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/android/</link>
+      <pubDate>Fri, 12 Aug 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Androidmakers</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/androidmakers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/androidmakers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angular</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/angular/</link>
+      <pubDate>Tue, 07 Mar 2017 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/angular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angular2</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/angular2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/angular2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aureliajs</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/aureliajs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/aureliajs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brainfuck</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/brainfuck/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/brainfuck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cookie</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/cookie/</link>
+      <pubDate>Wed, 10 Aug 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/cookie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Css</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/css/</link>
+      <pubDate>Tue, 02 May 2017 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Databases</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/databases/</link>
+      <pubDate>Thu, 03 Aug 2017 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/databases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devfest</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/devfest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/devfest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devoxx</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/devoxx/</link>
+      <pubDate>Tue, 02 May 2017 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/devoxx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distributed Systems</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/distributed-systems/</link>
+      <pubDate>Thu, 03 Aug 2017 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/distributed-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feign</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/feign/</link>
+      <pubDate>Fri, 12 Aug 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/feign/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functional</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/functional/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/functional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Go</title>
       <link>http://www.monkeypatch.io/palm-tree/tags/go/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.monkeypatch.io/palm-tree/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Golang</title>
-      <link>http://www.monkeypatch.io/palm-tree/tags/golang/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      <title>Java</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/java/</link>
+      <pubDate>Fri, 12 Aug 2016 13:47:08 +0200</pubDate>
       
-      <guid>http://www.monkeypatch.io/palm-tree/tags/golang/</guid>
+      <guid>http://www.monkeypatch.io/palm-tree/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>http://www.monkeypatch.io/palm-tree/tags/hugo/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      <title>Jotb</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/jotb/</link>
+      <pubDate>Thu, 03 Aug 2017 13:47:08 +0200</pubDate>
       
-      <guid>http://www.monkeypatch.io/palm-tree/tags/hugo/</guid>
+      <guid>http://www.monkeypatch.io/palm-tree/tags/jotb/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Ipsum</title>
-      <link>http://www.monkeypatch.io/palm-tree/tags/ipsum/</link>
-      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
+      <title>Kotlin</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/kotlin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.monkeypatch.io/palm-tree/tags/ipsum/</guid>
+      <guid>http://www.monkeypatch.io/palm-tree/tags/kotlin/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Programming</title>
-      <link>http://www.monkeypatch.io/palm-tree/tags/programming/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      <title>Lolcode</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/lolcode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.monkeypatch.io/palm-tree/tags/programming/</guid>
+      <guid>http://www.monkeypatch.io/palm-tree/tags/lolcode/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Theme</title>
-      <link>http://www.monkeypatch.io/palm-tree/tags/theme/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      <title>Mixit</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/mixit/</link>
+      <pubDate>Tue, 02 May 2017 13:47:08 +0200</pubDate>
       
-      <guid>http://www.monkeypatch.io/palm-tree/tags/theme/</guid>
+      <guid>http://www.monkeypatch.io/palm-tree/tags/mixit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mktd</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/mktd/</link>
+      <pubDate>Fri, 12 Aug 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/mktd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monkeytechday</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/monkeytechday/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/monkeytechday/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nativescript</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/nativescript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/nativescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ngvikings</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/ngvikings/</link>
+      <pubDate>Tue, 07 Mar 2017 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/ngvikings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nodejs</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/nodejs/</link>
+      <pubDate>Tue, 02 May 2017 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/react/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reactive</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/reactive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/reactive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rest</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/rest/</link>
+      <pubDate>Fri, 12 Aug 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/rest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retrofit</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/retrofit/</link>
+      <pubDate>Fri, 12 Aug 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/retrofit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rust</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/rust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/rust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rx</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/rx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/rx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rxjava</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/rxjava/</link>
+      <pubDate>Fri, 12 Aug 2016 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/rxjava/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rxjs</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/rxjs/</link>
+      <pubDate>Tue, 07 Mar 2017 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/rxjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swift</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/swift/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/swift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech Addicts</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/tech-addicts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/tech-addicts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech Days</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/tech-days/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/tech-days/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Techno</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/techno/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/techno/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typescript</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/typescript/</link>
+      <pubDate>Tue, 02 May 2017 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Websecurity</title>
+      <link>http://www.monkeypatch.io/palm-tree/tags/websecurity/</link>
+      <pubDate>Tue, 07 Mar 2017 13:47:08 +0200</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/tags/websecurity/</guid>
       <description></description>
     </item>
     

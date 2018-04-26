@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MKTD#1 Feign vs Retrofit - Part 1 - Prise en main</title>
+  <meta name="author" content="" />
+
+  
+  <meta name="keywords" content="Expertise informatique, Dévelopement informatique">
+  
+
+  
+  <meta name="description" content="Société de conseil et d&#39;expertise en informatique spécialisée dans les nouvelles technologies.">
+  
+
+  <meta name="generator" content="Hugo 0.40.1" />
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  
+  <link href="http://www.monkeypatch.io/palm-tree/css/animate.css" rel="stylesheet">
+
+  
+  
+    <link href="http://www.monkeypatch.io/palm-tree/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+  
+
+  
+  <link href="http://www.monkeypatch.io/palm-tree/css/custom.css" rel="stylesheet">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css">
+
+  
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+  <link rel="shortcut icon" href="http://www.monkeypatch.io/palm-tree/img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="http://www.monkeypatch.io/palm-tree/img/apple-touch-icon.png" />
+  
+
+  <link href="http://www.monkeypatch.io/palm-tree/css/owl.carousel.css" rel="stylesheet">
+  <link href="http://www.monkeypatch.io/palm-tree/css/owl.theme.css" rel="stylesheet">
+
+  <link rel="alternate" href="http://www.monkeypatch.io/index.xml" type="application/rss+xml" title="MonkeyPatch - Expertise Informatique">
+
+  
+  <meta property="og:title" content="MKTD#1 Feign vs Retrofit - Part 1 - Prise en main" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/palm-tree/blog/2016/08/09/mktd1-feign-vs-retrofit-1-prise-en-main//" />
+  <meta property="og:image" content="img/logo.png" />
+
+</head>
+
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="http://www.monkeypatch.io/palm-tree/">
+                    <img src="http://www.monkeypatch.io/palm-tree/img/logo.png" alt="MKTD#1 Feign vs Retrofit - Part 1 - Prise en main logo" class="hidden-xs hidden-sm">
+                    <img src="http://www.monkeypatch.io/palm-tree/img/logo-small.png" alt="MKTD#1 Feign vs Retrofit - Part 1 - Prise en main logo" class="visible-xs visible-sm">
+                    <span class="sr-only">MKTD#1 Feign vs Retrofit - Part 1 - Prise en main - aller à l&#39;accueil</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Basculer la Navigation</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/palm-tree/">Home</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/palm-tree/blog/">Blog</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/palm-tree/faq/">FAQ</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/palm-tree/contact/">Contact</a>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+
+                </span>
+                    </div>
+                </form>
+
+            </div>
+            
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+        </header>
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>MKTD#1 Feign vs Retrofit - Part 1 - Prise en main</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12" id="blog-post">
+
+                        <p class="text-muted text-uppercase mb-small text-right">August 9, 2016</p>
+
+                        <div id="post-content">
+                          <!--banner = "http://www.monkeypatch.io/public/images/logos/logo-FeignVsRetrofit.png"-->
+
+<p>Nous avons organisé à Toulouse début juillet, le premier <a href="http://www.monkeytechdays.com/">MonkeyTechDays</a> chez <a href="http://www.harrycow.com/">HarryCow</a> sur la thématique <a href="http://www.monkeytechdays.com/events/mktd-1">Feign vs Retrofit</a>.
+Un MKTD consiste à comparer, apprendre, sous forme de défis, une ou plusieurs technologies sur une journée.
+</p>
+
+<p>Ce premier événement était l’occasion d’approfondir les technologies de clients REST en Java. Nous avons donc étudié <a href="https://github.com/OpenFeign/feign">Feign</a>, une librairie initiée par <a href="https://netflix.github.io/">Netflix</a> et <a href="http://square.github.io/retrofit/">Retrofit</a> qui est écrite par <a href="https://github.com/square">Square</a>. Ces deux API permettent d’écrire des clients REST en Java de façon plus élégante qu’avec les solutions plus classiques comme JAX-RS client, Spring Rest Template, …</p>
+
+<p>Pour aider les équipes à tester les technologies, nous avions au préalable déployé plusieurs services REST sur le thème des singes.
+Le code source de cette journée est disponible à l’adresse : <a href="https://github.com/monkeytechdays">https://github.com/monkeytechdays</a></p>
+
+<h2 id="défi-0-constitution-des-équipes">Défi 0 : Constitution des équipes</h2>
+
+<p>Ce défi n’avait rien de technique, mais nous permet de constituer des équipes équitables pour chaque technologie, en finissant nos cafés, croissants, &hellip; L’équipe Feign étant dirigée par <a href="https://twitter.com/ilaborie">Igor</a> et l’équipe Retrofit par <a href="https://twitter.com/EmmanuelVinas">Emmanuel</a>.</p>
+
+<h2 id="défi-1-prise-en-main">Défi 1: Prise en main</h2>
+
+<p>Ce premier défi consiste à une mise en bouche pour découvrir ces technologies.</p>
+
+<p>Le principe d’utilisation de <a href="https://github.com/OpenFeign/feign">Feign</a> et <a href="http://square.github.io/retrofit/">Retrofit</a> consiste à créer une interface décrivant le service REST, puis l’API se charge de créer une instance de cette interface.
+Dans ce premier défi, il suffisait de compléter les interfaces correpondant aux services REST pour faire passer des tests unitaires.</p>
+
+<p>Voici les deux interfaces retournant du JSON :</p>
+
+<pre><code class="language-java">public interface MonkeyApi {
+   Page&lt;Monkey&gt; getMonkeys(int page);
+   Monkey getMonkeyByName(String name);
+   Monkey createMonkey(Monkey monkey);
+   void deleteMonkey(String id);
+}
+</code></pre>
+
+<pre><code class="language-java">public interface MonkeyRaceApi {
+    List&lt;MonkeyRace&gt; getMonkeyRaces();
+}
+</code></pre>
+
+<p>et celle dont le service retourne du XML :</p>
+
+<pre><code class="language-java">public interface MonkeyStatsApi {
+    MonkeyStatistics getMonkeyStats();
+}
+</code></pre>
+
+<p>Voir le code sous <a href="https://github.com/monkeytechdays/mktd1-defi1">GitHub</a></p>
+
+<p>Pour réussir ce défi, il faut donc faire:</p>
+
+<ul>
+<li>un GET et décoder le JSON de la réponse,</li>
+<li>un GET avec un paramètre de requête,</li>
+<li>un GET avec un paramètre dans le <em>path</em> de la requête,</li>
+<li>un POST avec un encodage en JSON du corps de la requête,</li>
+<li>un DELETE,</li>
+<li>un GET et décoder le XML de la réponse.</li>
+</ul>
+
+<h2 id="feign">Feign</h2>
+
+<p>La documentation de Feign se trouve dans le <a href="https://github.com/OpenFeign/feign">README.md</a> sous GitHub.
+La documentation des extensions se trouve aussi dans des fichiers README.md de ces extensions.</p>
+
+<blockquote>
+<p>Bien que Feign supporte Java 6 par défaut, nous avons codé avec Java 8.</p>
+</blockquote>
+
+<h3 id="dépendances">Dépendances</h3>
+
+<p>Pour commencer à utiliser Feign, il faut bien sûr ajouter les dépendances nécessaires pour ce défi:</p>
+
+<pre><code class="language-xml">&lt;!-- Feign --&gt;
+&lt;dependency&gt;
+   &lt;groupId&gt;com.netflix.feign&lt;/groupId&gt;
+   &lt;artifactId&gt;feign-core&lt;/artifactId&gt;
+   &lt;version&gt;8.17.0&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;!-- Feign: encode/decode JSON with GSON --&gt;
+&lt;dependency&gt;
+   &lt;groupId&gt;com.netflix.feign&lt;/groupId&gt;
+   &lt;artifactId&gt;feign-gson&lt;/artifactId&gt;
+   &lt;version&gt;8.17.0&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;!-- Feign: encode/decode XML with JAXB --&gt;
+&lt;dependency&gt;
+   &lt;groupId&gt;com.netflix.feign&lt;/groupId&gt;
+   &lt;artifactId&gt;feign-jaxb&lt;/artifactId&gt;
+   &lt;version&gt;8.17.0&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+
+<blockquote>
+<p>Nous recommandons bien sûr l’utilisation d’une propriété maven pour définir la version de Feign utilisée.</p>
+</blockquote>
+
+<h3 id="configuration-des-interfaces">Configuration des interfaces</h3>
+
+<p>Ensuite il faut annoter les interfaces pour que Feign fasse les requêtes HTTP correspondantes aux méthodes de ces interfaces. Feign apporte ses propres annotations pour décrire les requêtes HTTP:</p>
+
+<ul>
+<li><code>@RequestLine</code>: permet de définir la première ligne de la requête HTTP: le verbe HTTP (GET, POST, PUT, DELETE, …) et le chemin, on y précise aussi les paramètres de la requête. On peut utiliser la notation <code>{name}</code> pour définir une partie variable de la requête (paramètre ou chemin)</li>
+<li><code>@Param</code>: cette annotation permet de faire le lien entre une variable définie dans les autres annotations (<code>@RequestLine</code>, <code>@Headers</code>, …) et le paramètre de la méthode. Il faut préciser le nom de la variable dans l’annotation.</li>
+<li><code>@Headers</code>: permet d’ajouter une en-tête HTTP, comme pour <code>@RequestLine</code> on peut utiliser la notation <code>{name}</code> pour définir une valeur variable dans l’en-tête HTTP. Cette annotation, peut être mise sur l’interface, ou sur une méthode de cette interface.
+Pas d’annotation pour le corps d’une requête POST ou PUT, le paramètre sans annotation sera converti dans le corps de la requête.</li>
+</ul>
+
+<p>Ce qui nous donne ceci :</p>
+
+<pre><code class="language-java">public interface MonkeyRaceApi {
+    @RequestLine(&quot;GET /races&quot;)
+    List&lt;MonkeyRace&gt; getMonkeyRaces();
+}
+</code></pre>
+
+<pre><code class="language-java">@Headers(&quot;Content-Type: application/json&quot;)
+public interface MonkeyApi {
+    @RequestLine(&quot;GET ?page={page}&quot;)
+    Page&lt;Monkey&gt; getMonkeys(@Param(&quot;page&quot;) int page);
+
+    @RequestLine(&quot;GET /{name}&quot;)
+    Monkey getMonkeyByName(@Param(&quot;name&quot;) String name);
+
+    @RequestLine(&quot;POST &quot;)
+    Monkey createMonkey(Monkey monkey);
+
+    @RequestLine(&quot;DELETE /{id}&quot;)
+    void deleteMonkey(@Param(&quot;id&quot;) String id);
+}
+</code></pre>
+
+<pre><code class="language-java">public interface MonkeyStatsApi {
+    @RequestLine(&quot;GET /stats&quot;)
+    MonkeyStatistics getMonkeyStats();
+}
+</code></pre>
+
+<h3 id="construction-des-instances">Construction des instances</h3>
+
+<p>Pour la dernière étape, on utilise l’API <em>fluent builder</em> de Feign pour créer l’instance de ces interfaces.
+C’est ici que l’on va faire intervenir les encodeurs/décodeurs ajoutés dans nos dépendances Maven plus tôt :</p>
+
+<pre><code class="language-java">static MonkeyRaceApi buildRaceApi(String url) {
+    return Feign.builder()
+            // Decode JSON from respone body
+            .decoder(new GsonDecoder())
+            .target(MonkeyRaceApi.class, url);
+}
+</code></pre>
+
+<pre><code class="language-java">static MonkeyApi buildMonkeyApi(String url) {
+    return Feign.builder()
+            // Decode JSON from respone body
+            .decoder(new GsonDecoder())
+            // Encode JSON for request body
+            .encoder(new GsonEncoder())
+            .target(MonkeyApi.class, url + &quot;/monkeys&quot;);
+}
+</code></pre>
+
+<pre><code class="language-java">static MonkeyStatsApi buildStatsApi(String url) {
+    // Create JAXB context factory
+    JAXBContextFactory jaxbFactory = new JAXBContextFactory.Builder()
+            .withMarshallerJAXBEncoding(&quot;UTF-8&quot;)
+            .build();
+
+    return Feign.builder()
+            // Decode XML from response body
+            .decoder(new JAXBDecoder(jaxbFactory))
+            .target(MonkeyStatsApi.class, url);
+}
+</code></pre>
+
+<blockquote>
+<p>Feign va concaténer l&rsquo;URL avec le chemin défini, dans le chemin de l&rsquo;annotation <code>@RequestLine</code>, ceci permet facilement de rajouter un préfixe pour les services si on le souhaite.</p>
+</blockquote>
+
+<h3 id="bilan">Bilan</h3>
+
+<p>Peu de points négatifs pour Feign dans cet exercice:</p>
+
+<ul>
+<li>pour faire fonctionner le décodage XML il a fallu triturer un peu l’objet pour que <a href="https://docs.oracle.com/javase/tutorial/jaxb/intro/">JAXB</a> <em>deserialize</em> correctement le XML. Mais c’est plus un problème lié à JAXB et au XML de façon plus générale,</li>
+<li>les messages d’erreurs ne sont parfois pas simples à décrypter, mais avec un peu de pratique et une connaissance basique du protocole HTTP, ça n’est pas vraiment un problème. Un problème classique est le fait d’oublier le verbe HTTP dans l’annotation <code>@RequestLine</code>.</li>
+</ul>
+
+<p>Beaucoup de côtés positifs ici:</p>
+
+<ul>
+<li>simple et proche du HTTP,</li>
+<li>très léger, il n’y a pas de dépendances transitives pour le <code>feign-core</code>,</li>
+<li>facilement extensible: par exemple, il est facile de changer d’encodeur/décodeur <a href="https://github.com/OpenFeign/feign/tree/master/gson">GSON</a>, <a href="https://github.com/OpenFeign/feign/tree/master/jackson">Jackson</a>, <a href="https://github.com/OpenFeign/feign/tree/master/jaxb">JAXB</a>, &hellip;,</li>
+<li>il y a un bon support de Java 8, par exemple, les méthodes <code>static</code> et <code>default</code> des interfaces de Java 8 sont supportées.</li>
+</ul>
+
+<p>Quelques remarques:</p>
+
+<ul>
+<li>il y a d’autres annotations <code>@Body</code>, <code>@HeaderMap</code>, <code>@QueryMap</code> qui existent,</li>
+<li>on peut configurer la façon dont les variables (<code>@Param</code>) sont converties en String via les <code>Expander</code>.</li>
+<li>pour définir un chemin racine à toutes nos méthodes dans l’interface, on peut l’ajouter dans l’URL utilisée par le <em>builder</em>.</li>
+</ul>
+
+<blockquote>
+<p>Il n’y a pas de magie dans Feign : il n&rsquo;utilise que ce qui existe déjà dans le JDK : <code>java.net.HttpURLConnection</code>, <code>java.lang.reflect.Proxy</code>, <code>java.lang.reflect.InvocationHandler</code>, …</p>
+</blockquote>
+
+<h2 id="retrofit">Retrofit</h2>
+
+<p>La première étape consiste à rajouter les dépendances de Rétrofit</p>
+
+<pre><code class="language-xml">&lt;! -- Dépendance de rétrofit --&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;com.squareup.retrofit2&lt;/groupId&gt;
+    &lt;artifactId&gt;retrofit&lt;/artifactId&gt;
+    &lt;version&gt;${retrofit.version}&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;! -- Converter Jackson pour gérer le Json --&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;com.squareup.retrofit2&lt;/groupId&gt;
+    &lt;artifactId&gt;converter-jackson&lt;/artifactId&gt;
+    &lt;version&gt;${retrofit.version}&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;!-- Converter Simple Xml pour gérer le xml --&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;com.squareup.retrofit2&lt;/groupId&gt;
+    &lt;artifactId&gt;converter-simplexml&lt;/artifactId&gt;
+    &lt;version&gt;${retrofit.version}&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+
+<p>Ensuite, il nous faut rajouter les annotations spécifiques à Retrofit sur l’interface.
+Les règles du jeu étant de ne pas changer la signature de l’interface, nous avons dû ajouter une autre interface utilisée par la <code>CallFactory</code> par défaut de Retrofit.</p>
+
+<pre><code class="language-java">public interface MonkeyRaceService {
+   @GET(&quot;races&quot;)
+    Call&lt;List&lt;MonkeyRace&gt;&gt; getMonkeyRaces();
+}
+</code></pre>
+
+<pre><code class="language-java">public interface MonkeyService {
+    @GET(&quot;monkeys&quot;)
+    Call&lt;Page&lt;Monkey&gt;&gt; getMonkeys();
+
+    @GET(&quot;monkeys/{name}&quot;)
+    Call&lt;Monkey&gt; getMonkeyByName(@Path(&quot;name&quot;) String name);
+
+    @POST(&quot;monkeys&quot;)
+    Call&lt;Monkey&gt; create(@Body Monkey monkey);
+
+    @DELETE(&quot;monkeys/{id}&quot;)
+    Call&lt;ResponseBody&gt; delete(@Path(&quot;id&quot;) String monkeyId);
+}
+</code></pre>
+
+<pre><code class="language-java">public interface MonkeyStatsService {
+    @GET(&quot;/stats&quot;)
+    Call&lt;MonkeyStatistics&gt; getMonkeyStats();
+}
+</code></pre>
+
+<p>Ensuite, nous implémentons les interfaces <code>MonkeyApi</code>, <code>MonkeyRaceApi</code>, <code>MonkeyStatsApi</code> en utilisant les interfaces spécifiques pour Retrofit.</p>
+
+<pre><code class="language-java">public class RetrofitMonkeyApi implements MonkeyApi, RetrofitApi {
+    private MonkeyService monkeyService;
+
+    public void setBaseUrl(String baseUrl) {
+        monkeyService = createRetrofit(baseUrl, false)
+          .create(MonkeyService.class);
+    }
+
+    @Override
+    public Page&lt;Monkey&gt; getMonkeys(int page) {
+        return executeCall(monkeyService::getMonkeys);
+    }
+
+    @Override
+    public Monkey getMonkeyByName(String name) {
+        return executeCall(() -&gt; monkeyService.getMonkeyByName(name));
+    }
+
+    @Override
+    public Monkey createMonkey(Monkey monkey) {
+        return executeCall(() -&gt; monkeyService.create(monkey));
+    }
+
+    @Override
+    public void deleteMonkey(String id) {
+        executeCall(() -&gt; monkeyService.delete(id));
+    }
+}
+</code></pre>
+
+<pre><code class="language-java">public interface RetrofitApi {
+
+    default Retrofit createRetrofit(String baseUrl, boolean useXml) {
+        Retrofit.Builder builder = new Retrofit.Builder()
+                .baseUrl(baseUrl);
+        if (useXml) {
+            builder.addConverterFactory(SimpleXmlConverterFactory.create());
+        }
+        builder.addConverterFactory(JacksonConverterFactory.create());
+        return builder.build();
+    }
+
+    default &lt;T&gt; T executeCall(Supplier&lt;Call&lt;T&gt;&gt; supplier) {
+        try {
+            Call&lt;T&gt; call = supplier.get();
+            return call.execute().body();
+        } catch (IOException e) {
+            return null;
+        }
+    }
+}
+</code></pre>
+
+<h3 id="bilan-1">Bilan</h3>
+
+<h4 id="points-négatifs">Points négatifs</h4>
+
+<p>Nous trouvons dommage qu’il n’y ait pas nativement une <code>CallFactory</code> permettant de faire de façon synchrone un appel retournant notre objet métier sans avoir besoin de passer par l’objet <code>Call</code> à la manière dont cela est géré avec Feign.</p>
+
+<p>Il est aussi possible de faire notre propre <code>CallAdapterFactory</code>.
+Voici un exemple tiré du code source des tests de Retrofit :</p>
+
+<pre><code class="language-java">static class DirectCallIOException extends RuntimeException {
+    DirectCallIOException(String message, IOException e) {
+      super(message, e);
+    }
+}
+
+static class DirectCallAdapterFactory extends CallAdapter.Factory {
+    @Override
+    public CallAdapter&lt;?&gt; get(final Type returnType, Annotation[] annotations, Retrofit retrofit) {
+        return new CallAdapter&lt;Object&gt;() {
+            @Override public Type responseType() {
+                return returnType;
+            }
+
+            @Override public Object adapt(Call call) {
+                try {
+                    return call.execute().body();
+                } catch (IOException e) {
+                    throw new DirectCallIOException(e.getMessage(), e);
+                }
+            }
+        };
+    }
+}
+</code></pre>
+
+<p>Cela nous obligerait quand même à traiter les exceptions de type <code>DirectCallIOException</code>.</p>
+
+<p>Autre point que nous trouvons dommage lors de cet exercice est le fait que nous devons catcher les <code>IOException</code> qui peuvent se produire lors de l’appel.
+Peut être manque-t-il a Retrofit une gestion des exceptions comme Feign peut l’avoir.
+Nous verrons cela plus en détail dans l’exercice suivant.</p>
+
+<p>Dernier point &lsquo;négatif&rsquo;, Retrofit ayant besoin de plusieurs dépendances pour fonctionner : <a href="http://square.github.io/okhttp/">OkHttp</a> et d&rsquo;au moins 1 <em>converter</em>, la taille de l’exécutable généré est sensiblement plus grosse que celle de l’exécutable de Feign (1.5Mo contre 0.5Mo).</p>
+
+<h4 id="points-positifs">Points Positifs</h4>
+
+<p>Retrofit reste simple à utiliser. Le fait que les principaux <em>converters</em> soient disponibles est une très bonne chose.</p>
+
+<p>Retrofit a ses propres annotations, évitant ainsi les erreurs de <em>typo</em>, ce qui est une très bonne chose. Bien que Feign se soit améliorée sur les messages d’erreurs, nous trouvons préférable le choix fait par l’équipe de Retrofit sur cette partie.</p>
+
+<p>*[MKTD]: MonkeyTechDays
+*[HTTP]: HyperText Transfer Protocol
+*[REST]: REpresentational State Transfer
+*[API]: Application Programming Interface
+*[JSON]: JavaScript Object Notation
+*[XML]: eXtensible Markup Language
+*[URL]: Uniform Resource Locator
+*[JDK]: Java Developement Kit</p>
+                        </div>
+                        
+                        
+
+                    </div>
+                    
+
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        
+        <div class="col-md-4 col-sm-6">
+            <h4>À propos de nous</h4>
+
+            Société de conseil et d'expertise en informatique spécialisée dans les nouvelles technologies.
+        <br>
+        <br>MonkeyPatch s’entoure uniquement d’experts en informatique dans les métiers du Web, du Mobile et du Big Data.
+      
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+        <div class="col-md-4 col-sm-6">
+
+             
+            <h4>Billets récents</h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="http://www.monkeypatch.io/palm-tree/blog/2017/08/03/jotb-malaga-2017/">
+                          
+                            <img src="http://www.monkeypatch.io/palm-tree/img/jotb-2017/panoramic.jpg" class="img-responsive" alt="J On The Beach 2017 — Review">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="http://www.monkeypatch.io/palm-tree/blog/2017/08/03/jotb-malaga-2017/">J On The Beach 2017 — Review</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="http://www.monkeypatch.io/palm-tree/blog/2017/05/02/makingof_css_is_awesome/">
+                          
+                            <img src="http://www.monkeypatch.io/palm-tree/img/placeholder.png" class="img-responsive" alt="Making Of &#39;CSS is Awesome !&#39;">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="http://www.monkeypatch.io/palm-tree/blog/2017/05/02/makingof_css_is_awesome/">Making Of &#39;CSS is Awesome !&#39;</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="http://www.monkeypatch.io/palm-tree/blog/2017/03/07/ngvikings-2017/">
+                          
+                            <img src="http://www.monkeypatch.io/palm-tree/img/placeholder.png" class="img-responsive" alt="ngVikings 2017">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="http://www.monkeypatch.io/palm-tree/blog/2017/03/07/ngvikings-2017/">ngVikings 2017</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+             
+
+        </div>
+        
+
+        
+        <div class="col-md-4 col-sm-6">
+
+          <h4>Contact</h4>
+
+            <strong>MonkeyPatch</strong>
+        <br>31 rue Alsace Lorraine
+        <br>31000, Toulouse
+        <br>
+        <strong>France</strong>
+      </p>
+      
+
+
+            <a href="http://www.monkeypatch.io/palm-tree/contact" class="btn btn-small btn-template-main">Aller à la page de contact</a>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-left">Copyright (c) 2016-2018, MonkeyPatch; all rights reserved.</p>
+            
+            <p class="pull-right">
+              Template par <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.
+              
+
+              Porté sur Hugo par <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
+
+    
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyAo5ce4DkgEvdYjBJLjqDCA_nS4EylydoY&v=3.exp"></script>
+
+<script src="http://www.monkeypatch.io/palm-tree/js/hpneo.gmaps.js"></script>
+<script src="http://www.monkeypatch.io/palm-tree/js/gmaps.init.js"></script>
+<script src="http://www.monkeypatch.io/palm-tree/js/front.js"></script>
+
+
+<script src="http://www.monkeypatch.io/palm-tree/js/owl.carousel.min.js"></script>
+
+<!-- Syntax highlighting -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+  </body>
+</html>

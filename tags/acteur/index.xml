@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Acteur on MonkeyPatch - Expertise Informatique</title>
+    <link>http://www.monkeypatch.io/palm-tree/tags/acteur/</link>
+    <description>Recent content in Acteur on MonkeyPatch - Expertise Informatique</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    
+	<atom:link href="http://www.monkeypatch.io/palm-tree/tags/acteur/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2016-11-06-devfest-toulouse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2016-11-06-devfest-toulouse/</guid>
+      <description>&lt;h2 id=&#34;retours-sur-le-devfest-toulouse&#34;&gt;Retours sur le DevFest Toulouse&lt;/h2&gt;
+
+&lt;p&gt;Jeudi 03 novembre 2016 a eu lieu le premier DevFest Toulouse (techniquement c&amp;rsquo;était à l&amp;rsquo;IUT Blagnac), une journée de conférence à prix très abordable (30€ seulement), le panel de speakers était assez varié: des Toulousaing, des Français, et quelques internationaux. Toutes les personnes avec qui j&amp;rsquo;ai eu l&amp;rsquo;occasion de discuter ont trouvé le niveau des conférences très bon. C&amp;rsquo;est aussi mon point de vue.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

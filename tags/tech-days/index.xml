@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech Days on MonkeyPatch - Expertise Informatique</title>
+    <link>http://www.monkeypatch.io/palm-tree/tags/tech-days/</link>
+    <description>Recent content in Tech Days on MonkeyPatch - Expertise Informatique</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    
+	<atom:link href="http://www.monkeypatch.io/palm-tree/tags/tech-days/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MKTD#1 Expérimentation du format &amp;#35;Feign &amp;#35;Retrofit</title>
+      <link>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-2/</guid>
+      <description>&lt;h1 id=&#34;mktd-1-expérimentation-du-format-feign-retrofit&#34;&gt;MKTD#1 : Expérimentation du format #Feign #Retrofit&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>MKTD#2 On remet le couvert autour d’&amp;#35;Angular2 &amp;#35;React &amp;#35;AureliaJS</title>
+      <link>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-3/</guid>
+      <description>&lt;h1 id=&#34;mktd-2-on-remet-le-couvert-autour-d-angular2-react-aureliajs&#34;&gt;MKTD#2 : On remet le couvert autour d’#Angular2 #React #AureliaJS&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>MKTD#3 La programmation réactive ça vous tente ? &amp;#35;Reactive</title>
+      <link>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-4/</guid>
+      <description>&lt;h1 id=&#34;mktd-3-la-programmation-réactive-ça-vous-tente-reactive&#34;&gt;MKTD#3 : La programmation réactive ça vous tente ? #Reactive&lt;/h1&gt;
+
+&lt;p&gt;Début 2017, la Programmation Réactive était en train de devenir la grosse tendance. Intéressant pour plusieurs Monkeys, on a décidé de faire venir une “guest star” pour animer ce MKTD : &lt;a href=&#34;https://twitter.com/sdeleuze?lang=fr&#34;&gt;Sébastien Deleuze&lt;/a&gt;.
+Il a vite adhéré à notre concept et s’est prêté au jeu.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MKTD#4 Du challenge et du partage autour de &amp;#35;Kotlin &amp;#35;Swift</title>
+      <link>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-5/</guid>
+      <description>&lt;h1 id=&#34;mktd-4-du-challenge-et-du-partage-autour-de-kotlin-swift&#34;&gt;MKTD#4 : Du challenge et du partage autour de #Kotlin #Swift&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mktd#5 Seulement 17 mois après la 1ère édition ! &amp;#35;Go &amp;#35;Rust</title>
+      <link>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-6/</guid>
+      <description>&lt;h1 id=&#34;mktd-5-seulement-17-mois-après-la-1ère-édition-go-rust&#34;&gt;Mktd#5 : Seulement 17 mois après la 1ère édition ! #Go #Rust&lt;/h1&gt;
+
+&lt;p&gt;Déjà (et seulement&amp;hellip;) 17 mois se sont écoulés depuis la première expérimentation des MKTD.
+Pour cette 5ème édition, on se retrouve une fois de plus chez HarryCow pour expérimenter et tester les 2 technologies de plus en plus utilisées Golang et Rustlang.
+  &lt;a href=&#34;https://twitter.com/kendo5731&#34;&gt;Aurélien&lt;/a&gt; et &lt;a href=&#34;https://twitter.com/LoganMzz&#34;&gt;Logan&lt;/a&gt; nous avaient préparé une jolie petite série de TP pour le matin, et sont repartis sur le jeu du MKTD#4 pour l’après-midi.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pourquoi avons-nous créé les MonkeyTechDays ?</title>
+      <link>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.monkeypatch.io/palm-tree/blog/1/01/01/2018-02-05-mktds-articles-1/</guid>
+      <description>&lt;h1 id=&#34;pourquoi-avons-nous-créé-les-monkeytechdays&#34;&gt;Pourquoi avons-nous créé les MonkeyTechDays ?&lt;/h1&gt;
+
+&lt;p&gt;Nous voulons vous faire découvrir d’un peu plus près notre univers. Chaque MonkeyTechDays (MKTD) réunit une 30aine de Tech Addicts. Comme chaque Monkey, ces passionnés du dév. cherchent à suivre les évolutions rapides des technos. En équipe nous expérimentons, évaluons les technos innovantes sous forme de défis techniques. Une journée au plus près du code, fun et décontractée, où des coachs passionnés aident les participants à réaliser des exos de niveau soutenu.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

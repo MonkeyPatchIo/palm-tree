@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MKTD#1 Feign vs Retrofit - Part 3 - Autres sujets</title>
+  <meta name="author" content="" />
+
+  
+  <meta name="keywords" content="Expertise informatique, Dévelopement informatique">
+  
+
+  
+  <meta name="description" content="Société de conseil et d&#39;expertise en informatique spécialisée dans les nouvelles technologies.">
+  
+
+  <meta name="generator" content="Hugo 0.40.1" />
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  
+  <link href="http://www.monkeypatch.io/palm-tree/css/animate.css" rel="stylesheet">
+
+  
+  
+    <link href="http://www.monkeypatch.io/palm-tree/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+  
+
+  
+  <link href="http://www.monkeypatch.io/palm-tree/css/custom.css" rel="stylesheet">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css">
+
+  
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+  <link rel="shortcut icon" href="http://www.monkeypatch.io/palm-tree/img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="http://www.monkeypatch.io/palm-tree/img/apple-touch-icon.png" />
+  
+
+  <link href="http://www.monkeypatch.io/palm-tree/css/owl.carousel.css" rel="stylesheet">
+  <link href="http://www.monkeypatch.io/palm-tree/css/owl.theme.css" rel="stylesheet">
+
+  <link rel="alternate" href="http://www.monkeypatch.io/index.xml" type="application/rss+xml" title="MonkeyPatch - Expertise Informatique">
+
+  
+  <meta property="og:title" content="MKTD#1 Feign vs Retrofit - Part 3 - Autres sujets" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/palm-tree/blog/2016/08/12/mktd1-feign-vs-retrofit-3-autres-sujets//" />
+  <meta property="og:image" content="img/logo.png" />
+
+</head>
+
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="http://www.monkeypatch.io/palm-tree/">
+                    <img src="http://www.monkeypatch.io/palm-tree/img/logo.png" alt="MKTD#1 Feign vs Retrofit - Part 3 - Autres sujets logo" class="hidden-xs hidden-sm">
+                    <img src="http://www.monkeypatch.io/palm-tree/img/logo-small.png" alt="MKTD#1 Feign vs Retrofit - Part 3 - Autres sujets logo" class="visible-xs visible-sm">
+                    <span class="sr-only">MKTD#1 Feign vs Retrofit - Part 3 - Autres sujets - aller à l&#39;accueil</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Basculer la Navigation</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/palm-tree/">Home</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/palm-tree/blog/">Blog</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/palm-tree/faq/">FAQ</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/palm-tree/contact/">Contact</a>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+
+                </span>
+                    </div>
+                </form>
+
+            </div>
+            
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+        </header>
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>MKTD#1 Feign vs Retrofit - Part 3 - Autres sujets</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12" id="blog-post">
+
+                        <p class="text-muted text-uppercase mb-small text-right">August 12, 2016</p>
+
+                        <div id="post-content">
+                          <hr />
+
+<!--image: http://www.monkeypatch.io/public/images/logos/logo-FeignVsRetrofit.png-->
+
+<p>Le but de cet exercice était d’utiliser toutes les solutions possibles, hormis le cache pour améliorer les requêtes.
+La JVM ayant plein d&rsquo;astuce d&rsquo;optimisation (comme la compilation en code natif à chaud JIT), il est vite compliqué de faire des benchmarks &lsquo;valable&rsquo; en Java.
+La solution la plus simple est d&rsquo;utiliser <a href="http://openjdk.java.net/projects/code-tools/jmh/">JMH</a> qui est la solution <em>officiel</em> pour la JVM.
+</p>
+
+<h2 id="jhm">JHM</h2>
+
+<p>Voici le code utiliser pour faire ces tests de performances:</p>
+
+<pre><code class="language-java">public class RestClientBenchmark {
+
+    @State(Scope.Benchmark)
+    public static class BenchmarkConfiguration {
+        @Param({&quot;1&quot;, &quot;10&quot;, &quot;100&quot;})
+        int nbPages;
+        MonkeyApi api;
+
+        @Setup(Level.Trial)
+        public void getApi() {
+            api = ApiFactory.buildMonkeyApi(BASE_URL);
+        }
+    }
+
+    @Benchmark
+    @Warmup(iterations = 5, time = 1, timeUnit = SECONDS)
+    @Measurement(iterations = 5, time = 1, timeUnit = SECONDS)
+    @BenchmarkMode(Throughput)
+    @Fork(5)
+    public long load_monkeys(BenchmarkConfiguration config) {
+        return IntStream.range(0, config.nbPages)
+                .parallel()
+                .mapToObj(config.api::getMonkeys)
+                .map(Page::getContent)
+                .flatMap(Collection::stream)
+                .count();
+    }
+}
+</code></pre>
+
+<p>Il est bien sur trés intéressant d&rsquo;ajouter des <code>@Benchmark</code> pour tester dans les mêmes conditions sans le parallélisme de la <code>Stream</code>, ou avec des API asynchronnes comme <code>RxJava</code>, ou les <code>CompletableFuture</code> de Java 8.</p>
+
+<h2 id="feign">Feign</h2>
+
+<p>TODO</p>
+
+<h2 id="retrofit">Retrofit</h2>
+
+<p>Étant donné que nous étions dans un environnement déjà multi-threadé nous nous sommes concentré sur la partie optimisation de la sérialisation/désérialisation du JSON. Pour ça nous avons testé plusieurs converters disponibles pour retrofit.
+[Gson](), [Jackson](), [Moshi]() et [LoganSquare]()</p>
+
+<p>Dans notre cas de test, Jackson nous a semblé plus performant que Gson.
+Nous pensions que Moshi allait être encore plus performant étant donné qu’il utilise <a href="https://github.com/square/okio">Okio</a> (décrites par <a href="https://github.com/JakeWharton">Jake Wharton</a> lors de la <a href="https://youtu.be/KIAoQbAu3eA?t=1548">Droidcon NYC 2015</a> et pourtant Moshi est la librairie qui nous a donné les moins bonnes performances.
+LoganSquare a été la librairie qui nous a donné les meilleures performances. Celui est surement du au faire qu’elle utilise une phase d’optimisation lors de la compilation et donc il y a moins besoin de reflexion.</p>
+
+<p>Voici les résultats que nous avons obtenu avec notre machine:</p>
+
+<p>TODO</p>
+
+<h2 id="bilan">Bilan</h2>
+
+<p>Malheureusement nous avons pas eu le temps d&rsquo;aborder ces sujets sous la forme d&rsquo;exercice lors du MKTD, mais nous en avons discuter autour de l&rsquo;apéro de fin</p>
+
+<ul>
+<li>Cache</li>
+<li>Retry</li>
+<li>Circuit Breaker</li>
+<li>Android</li>
+</ul>
+
+<h2 id="cache">Cache</h2>
+
+<p>TODO</p>
+
+<h2 id="retry">Retry</h2>
+
+<p>TODO</p>
+
+<h2 id="circuit-breaker">Circuit Breaker</h2>
+
+<p>TODO</p>
+
+<h2 id="android">Android</h2>
+
+<p>Nous savions que retrofit fonctionne très bien dans un environnement d’application mobile Android mais nous n’avions jamais testé feign dans ces conditions. Nous avons donc créé une petite application mobile qui appelle notre service de récupération des singes un certain nombre de fois. Un bouton étant utilisé pour Appeler le service via feign, un autre en utilisant rétrofit. Ne prenez pas cette application en exemple, elle a été codé en 30 minutes.</p>
+
+<p>Et je dois dire que j’ai été agréablement surpris de voir feign se comporter très bien en environnement Android API16+ et nous n’avons pas pu voir de différence notable de performances entre utiliser feign et utiliser retrofit en environnement mobile à partir du moment où le client est <code>OkHttp</code>. Nous n’avons pas poussé nos tests en utilisant le client par défaut.</p>
+
+<h1 id="bilan-général">Bilan général</h1>
+
+<p>Les deux technologies bien que très semblables disposent chacune de ses forces et ses faiblesses.</p>
+
+<p>Nous n’avons pas trop exploré la partie asynchrone par manque de temps lors de cette journée mais j’aurai tendance à dire qu’en environnement asynchrone il est plus simple d’utiliser Retrofit grâce au système de <code>CallAdapterFactory</code> qui permet facilement de retourner par exemple un objet <code>rx.Observable</code>. Cela est aussi possible avec Feign en utilisant l&rsquo;extension <code>feign-hystrix</code> (qui apporte aussi l&rsquo;aspect Circuit Breaker) mais c&rsquo;est moins souple que ce que l&rsquo;on peut faire avec Retrofit.</p>
+
+<p>En revanche en environnement synchrone nous avons préféré utiliser Feign pour le fait qu’il n’y ai pas besoin de modifier une interface et pour sa gestion des erreurs plus intuitive et plus simple à mettre en place.</p>
+
+<p>*[MKTD]: MonkeyTechDays
+*[HTTP]: HyperText Transfer Protocol
+*[REST]: REpresentational State Transfer
+*[API]: Application Programming Interface
+*[JSON]: JavaScript Object Notation
+*[XML]: eXtensible Markup Language
+*[URL]: Uniform Resource Locator</p>
+                        </div>
+                        
+                        
+
+                    </div>
+                    
+
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        
+        <div class="col-md-4 col-sm-6">
+            <h4>À propos de nous</h4>
+
+            Société de conseil et d'expertise en informatique spécialisée dans les nouvelles technologies.
+        <br>
+        <br>MonkeyPatch s’entoure uniquement d’experts en informatique dans les métiers du Web, du Mobile et du Big Data.
+      
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+        <div class="col-md-4 col-sm-6">
+
+             
+            <h4>Billets récents</h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="http://www.monkeypatch.io/palm-tree/blog/2017/08/03/jotb-malaga-2017/">
+                          
+                            <img src="http://www.monkeypatch.io/palm-tree/img/jotb-2017/panoramic.jpg" class="img-responsive" alt="J On The Beach 2017 — Review">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="http://www.monkeypatch.io/palm-tree/blog/2017/08/03/jotb-malaga-2017/">J On The Beach 2017 — Review</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="http://www.monkeypatch.io/palm-tree/blog/2017/05/02/makingof_css_is_awesome/">
+                          
+                            <img src="http://www.monkeypatch.io/palm-tree/img/placeholder.png" class="img-responsive" alt="Making Of &#39;CSS is Awesome !&#39;">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="http://www.monkeypatch.io/palm-tree/blog/2017/05/02/makingof_css_is_awesome/">Making Of &#39;CSS is Awesome !&#39;</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="http://www.monkeypatch.io/palm-tree/blog/2017/03/07/ngvikings-2017/">
+                          
+                            <img src="http://www.monkeypatch.io/palm-tree/img/placeholder.png" class="img-responsive" alt="ngVikings 2017">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="http://www.monkeypatch.io/palm-tree/blog/2017/03/07/ngvikings-2017/">ngVikings 2017</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+             
+
+        </div>
+        
+
+        
+        <div class="col-md-4 col-sm-6">
+
+          <h4>Contact</h4>
+
+            <strong>MonkeyPatch</strong>
+        <br>31 rue Alsace Lorraine
+        <br>31000, Toulouse
+        <br>
+        <strong>France</strong>
+      </p>
+      
+
+
+            <a href="http://www.monkeypatch.io/palm-tree/contact" class="btn btn-small btn-template-main">Aller à la page de contact</a>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-left">Copyright (c) 2016-2018, MonkeyPatch; all rights reserved.</p>
+            
+            <p class="pull-right">
+              Template par <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.
+              
+
+              Porté sur Hugo par <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
+
+    
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyAo5ce4DkgEvdYjBJLjqDCA_nS4EylydoY&v=3.exp"></script>
+
+<script src="http://www.monkeypatch.io/palm-tree/js/hpneo.gmaps.js"></script>
+<script src="http://www.monkeypatch.io/palm-tree/js/gmaps.init.js"></script>
+<script src="http://www.monkeypatch.io/palm-tree/js/front.js"></script>
+
+
+<script src="http://www.monkeypatch.io/palm-tree/js/owl.carousel.min.js"></script>
+
+<!-- Syntax highlighting -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+  </body>
+</html>

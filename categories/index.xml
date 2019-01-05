@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on MonkeyPatch - Expertise Informatique</title>
-    <link>http://www.monkeypatch.io/palm-tree/categories/</link>
-    <description>Recent content in Categories on MonkeyPatch - Expertise Informatique</description>
+    <title>Categories on MonkeyPatch</title>
+    <link>http://monkeypatch.gitlab.io/palm-tree/categories/</link>
+    <description>Recent content in Categories on MonkeyPatch</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language>
+    <language>fr-FR</language>
     
-	<atom:link href="http://www.monkeypatch.io/palm-tree/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://monkeypatch.gitlab.io/palm-tree/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Programming</title>
-      <link>http://www.monkeypatch.io/palm-tree/categories/programming/</link>
-      <pubDate>Thu, 03 Aug 2017 13:47:08 +0200</pubDate>
-      
-      <guid>http://www.monkeypatch.io/palm-tree/categories/programming/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

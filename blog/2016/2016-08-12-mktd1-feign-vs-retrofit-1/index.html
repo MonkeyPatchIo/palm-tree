@@ -7,16 +7,16 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,minimum-scale=1">
 <meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320"><meta property="og:title" content="Mktd#1 Feign Vs Retrofit : 1 Prise En Main" />
+<meta name="MobileOptimized" content="320"><meta property="og:title" content="Mktd#1 Feign Vs Retrofit : 1 Prise En Main">
 <meta property="og:description" content="Introduction
 
 Nous avons organisé à Toulouse début juillet, le premier MonkeyTechDays chez HarryCow sur la thématique Feign vs Retrofit.
 Un MKTD consiste à comparer, apprendre, sous forme de défis, une ou plusieurs technologies sur une journée.
 
-Ce premier événement était l’occasion d’approfondir les technologies de clients REST en Java. Nous avons donc étudié Feign, une librairie initiée par Netflix et Retrofit qui est écrite par Square. Ces deux API permettent d’écrire des clients REST en Java de façon plus élégante qu’avec les solutions plus classiques comme JAX-RS client, Spring Rest Template, …" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://monkeypatch.gitlab.io/palm-tree/blog/2016/2016-08-12-mktd1-feign-vs-retrofit-1/" /><meta property="article:published_time" content="2016-08-09T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2016-08-09T00:00:00&#43;00:00"/><meta property="og:site_name" content="MonkeyPatch" />
+Ce premier événement était l’occasion d’approfondir les technologies de clients REST en Java. Nous avons donc étudié Feign, une librairie initiée par Netflix et Retrofit qui est écrite par Square. Ces deux API permettent d’écrire des clients REST en Java de façon plus élégante qu’avec les solutions plus classiques comme JAX-RS client, Spring Rest Template, …">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://monkeypatch.gitlab.io/palm-tree/blog/2016/2016-08-12-mktd1-feign-vs-retrofit-1/"><meta property="article:published_time" content="2016-08-09T00:00:00&#43;00:00">
+<meta property="article:modified_time" content="2016-08-09T00:00:00&#43;00:00"><meta property="og:site_name" content="MonkeyPatch">
 
 <meta itemprop="name" content="Mktd#1 Feign Vs Retrofit : 1 Prise En Main">
 <meta itemprop="description" content="Introduction
@@ -27,31 +27,31 @@ Un MKTD consiste à comparer, apprendre, sous forme de défis, une ou plusieurs 
 Ce premier événement était l’occasion d’approfondir les technologies de clients REST en Java. Nous avons donc étudié Feign, une librairie initiée par Netflix et Retrofit qui est écrite par Square. Ces deux API permettent d’écrire des clients REST en Java de façon plus élégante qu’avec les solutions plus classiques comme JAX-RS client, Spring Rest Template, …">
 
 
-<meta itemprop="datePublished" content="2016-08-09T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2016-08-09T00:00:00&#43;00:00" />
+<meta itemprop="datePublished" content="2016-08-09T00:00:00&#43;00:00">
+<meta itemprop="dateModified" content="2016-08-09T00:00:00&#43;00:00">
 <meta itemprop="wordCount" content="1577">
 
 
 
-<meta itemprop="keywords" content="MKTD,Java,REST,Feign,Retrofit," />
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://www.monkeypatch.io/public/images/logos/logo-mkp-blue-x256.png"/>
+<meta itemprop="keywords" content="MKTD,Java,REST,Feign,Retrofit,">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://www.monkeypatch.io/public/images/logos/logo-mkp-blue-x256.png">
 
-<meta name="twitter:title" content="Mktd#1 Feign Vs Retrofit : 1 Prise En Main"/>
+<meta name="twitter:title" content="Mktd#1 Feign Vs Retrofit : 1 Prise En Main">
 <meta name="twitter:description" content="Introduction
 
 Nous avons organisé à Toulouse début juillet, le premier MonkeyTechDays chez HarryCow sur la thématique Feign vs Retrofit.
 Un MKTD consiste à comparer, apprendre, sous forme de défis, une ou plusieurs technologies sur une journée.
 
-Ce premier événement était l’occasion d’approfondir les technologies de clients REST en Java. Nous avons donc étudié Feign, une librairie initiée par Netflix et Retrofit qui est écrite par Square. Ces deux API permettent d’écrire des clients REST en Java de façon plus élégante qu’avec les solutions plus classiques comme JAX-RS client, Spring Rest Template, …"/>
-<meta name="generator" content="Hugo 0.53" />
+Ce premier événement était l’occasion d’approfondir les technologies de clients REST en Java. Nous avons donc étudié Feign, une librairie initiée par Netflix et Retrofit qui est écrite par Square. Ces deux API permettent d’écrire des clients REST en Java de façon plus élégante qu’avec les solutions plus classiques comme JAX-RS client, Spring Rest Template, …">
+<meta name="generator" content="Hugo 0.53">
 
-<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+<meta name="ROBOTS" content="INDEX, FOLLOW">
 
 <title>MonkeyPatch  | Mktd#1 Feign Vs Retrofit : 1 Prise En Main</title>
 
 
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
 
 
@@ -60,18 +60,15 @@ Ce premier événement était l’occasion d’approfondir les technologies de c
 
 <link rel="stylesheet" href="http://monkeypatch.gitlab.io/palm-tree/styles/main.83776122339fa27920f36dc641ea3239b83e110bb9eeff2e046218f8885d042e.css">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
 
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
-    rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     
     
     
     
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/themes/prism-tomorrow.min.css"
-    integrity="sha256-4S9ufRr1EqaUFFeM9/52GH68Hs1Sbvx8eFXBWpl8zPI=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/themes/prism-tomorrow.min.css" integrity="sha256-4S9ufRr1EqaUFFeM9/52GH68Hs1Sbvx8eFXBWpl8zPI=" crossorigin="anonymous">
 
 </head>
 
@@ -138,7 +135,7 @@ Ce premier événement était l’occasion d’approfondir les technologies de c
         </nav>
 
     </div>
-    <input type="checkbox" id="menu-hamburger" />
+    <input type="checkbox" id="menu-hamburger">
     <nav class="menu-hamburger">
         <ul>
             
@@ -217,8 +214,7 @@ Ce premier événement était l’occasion d’approfondir les technologies de c
     <h1>
         <span>Mktd#1 Feign Vs Retrofit : 1 Prise En Main</span>
         <div class="share">
-            <a class="twitter-share-button" href="https://twitter.com/share" data-size="large" data-via="monkeypatch_io"
-                data-text="Mktd#1 Feign Vs Retrofit : 1 Prise En Main" data-hashtags="MKTD,Java,REST,Feign,Retrofit">Tweet</a>
+            <a class="twitter-share-button" href="https://twitter.com/share" data-size="large" data-via="monkeypatch_io" data-text="Mktd#1 Feign Vs Retrofit : 1 Prise En Main" data-hashtags="MKTD,Java,REST,Feign,Retrofit">Tweet</a>
 
         </div>
     </h1>
@@ -679,7 +675,7 @@ Nous verrons cela plus en détail dans l’exercice suivant.</p>
         </li>
       </ul>
     </div>
-  </div>
+  
 </footer>
 
 <footer class="bottom">
@@ -707,14 +703,13 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
 
     <script src="/palm-tree/scripts/modernizr-custom.js"></script>
     
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/prism.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-haskell.min.js" integrity="sha256-MxfNlM5EW2pm9DZPWGvreAHxKNF8NK8DaLSVVtG+MjE="
-    crossorigin="anonymous"></script>
-<script     src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-clojure.min.js" integrity="sha256-eGVrzVqJ/GigoW8fpafNd5j00+zIESDj7FeJcrBUlrA=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-kotlin.min.js" integrity="sha256-BLmzS+mVDv8mg8ciLO7Lxoz1vAYhFtyboFOT0EMY+lg=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-haskell.min.js" integrity="sha256-MxfNlM5EW2pm9DZPWGvreAHxKNF8NK8DaLSVVtG+MjE=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-clojure.min.js" integrity="sha256-eGVrzVqJ/GigoW8fpafNd5j00+zIESDj7FeJcrBUlrA=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-kotlin.min.js" integrity="sha256-BLmzS+mVDv8mg8ciLO7Lxoz1vAYhFtyboFOT0EMY+lg=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-c.min.js" integrity="sha256-POQgKdZt7XGlcjT5opjx6fXs/Pt4eao8x7Q8JRaa/1A=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-brainfuck.min.js" integrity="sha256-VMnAWpm0qsoKYhwjGWpbpIFoEqmKFqgRMvrsPe4SLA8=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-lolcode.js" integrity="sha256-GfPLGNDlIwgQKINyzfQdNvX/cI3Pm9/4nQRGez7eMtc=" crossorigin="anonymous"></script>

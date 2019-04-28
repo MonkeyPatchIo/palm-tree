@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rust on MonkeyPatch</title>
+    <title>rust on MonkeyPatch</title>
     <link>http://monkeypatch.gitlab.io/palm-tree/tags/rust/</link>
-    <description>Recent content in Rust on MonkeyPatch</description>
+    <description>Recent content in rust on MonkeyPatch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <lastBuildDate>Mon, 05 Feb 2018 17:47:57 +0100</lastBuildDate>

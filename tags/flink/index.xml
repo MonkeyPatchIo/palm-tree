@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Flink on MonkeyPatch</title>
+    <title>flink on MonkeyPatch</title>
     <link>http://monkeypatch.gitlab.io/palm-tree/tags/flink/</link>
-    <description>Recent content in Flink on MonkeyPatch</description>
+    <description>Recent content in flink on MonkeyPatch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <lastBuildDate>Wed, 20 Jun 2018 00:00:00 +0000</lastBuildDate>

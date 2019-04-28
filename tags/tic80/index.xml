@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tic80 on MonkeyPatch</title>
+    <title>tic80 on MonkeyPatch</title>
     <link>http://monkeypatch.gitlab.io/palm-tree/tags/tic80/</link>
-    <description>Recent content in Tic80 on MonkeyPatch</description>
+    <description>Recent content in tic80 on MonkeyPatch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <lastBuildDate>Sun, 16 Dec 2018 00:00:00 +0000</lastBuildDate>

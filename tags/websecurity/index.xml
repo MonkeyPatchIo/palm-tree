@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Websecurity on MonkeyPatch</title>
+    <title>WebSecurity on MonkeyPatch</title>
     <link>http://monkeypatch.gitlab.io/palm-tree/tags/websecurity/</link>
-    <description>Recent content in Websecurity on MonkeyPatch</description>
+    <description>Recent content in WebSecurity on MonkeyPatch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <lastBuildDate>Tue, 07 Mar 2017 00:00:00 +0000</lastBuildDate>

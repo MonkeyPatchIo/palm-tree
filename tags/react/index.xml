@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>React on MonkeyPatch</title>
+    <title>react on MonkeyPatch</title>
     <link>http://monkeypatch.gitlab.io/palm-tree/tags/react/</link>
-    <description>Recent content in React on MonkeyPatch</description>
+    <description>Recent content in react on MonkeyPatch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <lastBuildDate>Mon, 05 Feb 2018 14:47:57 +0100</lastBuildDate>

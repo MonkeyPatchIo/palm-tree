@@ -3,8 +3,92 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://monkeypatch.gitlab.io/palm-tree/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://monkeypatch.gitlab.io/palm-tree/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/blog/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://monkeypatch.gitlab.io/palm-tree/blog/2018/2018-12-16-tic80/</loc>
     <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/devfest/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://monkeypatch.gitlab.io/palm-tree/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://monkeypatch.gitlab.io/palm-tree/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/code/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/console/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/dev/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/gaming/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/retro/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/tic80/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/functionalprogramming/</loc>
+    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -13,8 +97,32 @@
   </url>
   
   <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/lambdaworld/</loc>
+    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/conf/</loc>
+    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://monkeypatch.gitlab.io/palm-tree/blog/2018/2018-11-12-devfest-nantes/</loc>
     <lastmod>2018-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/nantes/</loc>
+    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/clojutre/</loc>
+    <lastmod>2018-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -23,8 +131,44 @@
   </url>
   
   <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/clojure/</loc>
+    <lastmod>2018-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/dod/</loc>
+    <lastmod>2018-07-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://monkeypatch.gitlab.io/palm-tree/blog/2018/2018-07-13-sunnytech/</loc>
     <lastmod>2018-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/sunnytech/</loc>
+    <lastmod>2018-07-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/kotlin/</loc>
+    <lastmod>2018-07-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/databases/</loc>
+    <lastmod>2018-07-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/distributed-systems/</loc>
+    <lastmod>2018-07-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -33,13 +177,85 @@
   </url>
   
   <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/jotb/</loc>
+    <lastmod>2018-07-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/mktd/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://monkeypatch.gitlab.io/palm-tree/blog/2018/2018-06-20-mktds-articles-7/</loc>
     <lastmod>2018-06-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/monkeytechday/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/tech-addicts/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/tech-days/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/techno/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/flink/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/kafka/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/breizhcamp/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://monkeypatch.gitlab.io/palm-tree/blog/2018/2018-05-20-breizhcamp-2018/</loc>
     <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/conference/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/brainfuck/</loc>
+    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/lolcode/</loc>
+    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -53,8 +269,26 @@
   </url>
   
   <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/go/</loc>
+    <lastmod>2018-02-05T17:47:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/rust/</loc>
+    <lastmod>2018-02-05T17:47:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://monkeypatch.gitlab.io/palm-tree/blog/2018/2018-02-05-mktds-articles-5/</loc>
     <lastmod>2018-02-05T16:47:57+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/swift/</loc>
+    <lastmod>2018-02-05T16:47:57+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -63,13 +297,49 @@
   </url>
   
   <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/reactive/</loc>
+    <lastmod>2018-02-05T15:47:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/angular2/</loc>
+    <lastmod>2018-02-05T14:47:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://monkeypatch.gitlab.io/palm-tree/blog/2018/2018-02-05-mktds-articles-3/</loc>
     <lastmod>2018-02-05T14:47:57+01:00</lastmod>
   </url>
   
   <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/aureliajs/</loc>
+    <lastmod>2018-02-05T14:47:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/react/</loc>
+    <lastmod>2018-02-05T14:47:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/feign/</loc>
+    <lastmod>2018-02-05T13:47:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://monkeypatch.gitlab.io/palm-tree/blog/2018/2018-02-05-mktds-articles-2/</loc>
     <lastmod>2018-02-05T13:47:57+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/retrofit/</loc>
+    <lastmod>2018-02-05T13:47:57+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -88,13 +358,91 @@
   </url>
   
   <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/jepsen/</loc>
+    <lastmod>2017-08-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/testing/</loc>
+    <lastmod>2017-08-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/css/</loc>
+    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/devoxx/</loc>
+    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://monkeypatch.gitlab.io/palm-tree/blog/2017/2017-05-02-makingof_css_is_awesome/</loc>
     <lastmod>2017-05-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/mixit/</loc>
+    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/nodejs/</loc>
+    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/typescript/</loc>
+    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/android/</loc>
+    <lastmod>2017-04-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/androidmakers/</loc>
+    <lastmod>2017-04-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://monkeypatch.gitlab.io/palm-tree/blog/2017/2017-04-12-androidmakers/</loc>
     <lastmod>2017-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/angular/</loc>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/rxjs/</loc>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/websecurity/</loc>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/ngvikings/</loc>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -108,8 +456,44 @@
   </url>
   
   <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/java/</loc>
+    <lastmod>2016-11-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/functional/</loc>
+    <lastmod>2016-11-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/acteur/</loc>
+    <lastmod>2016-11-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://monkeypatch.gitlab.io/palm-tree/blog/2016/2016-11-06-devfest-toulouse/</loc>
     <lastmod>2016-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/nativescript/</loc>
+    <lastmod>2016-11-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/rx/</loc>
+    <lastmod>2016-11-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/cookie/</loc>
+    <lastmod>2016-08-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -120,6 +504,12 @@
   <url>
     <loc>http://monkeypatch.gitlab.io/palm-tree/blog/2016/2016-08-12-mktd1-feign-vs-retrofit-2-en/</loc>
     <lastmod>2016-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/rest/</loc>
+    <lastmod>2016-08-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -189,51 +579,6 @@
   </url>
   
   <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://monkeypatch.gitlab.io/palm-tree/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://monkeypatch.gitlab.io/palm-tree/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/acteur/</loc>
-    <lastmod>2016-11-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/android/</loc>
-    <lastmod>2017-04-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/androidmakers/</loc>
-    <lastmod>2017-04-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/angular/</loc>
-    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/angular2/</loc>
-    <lastmod>2018-02-05T14:47:57+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://monkeypatch.gitlab.io/palm-tree/expert/offers/architecture/</loc>
     <xhtml:link
                 rel="alternate"
@@ -262,12 +607,6 @@
   </url>
   
   <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/aureliajs/</loc>
-    <lastmod>2018-02-05T14:47:57+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://monkeypatch.gitlab.io/palm-tree/careers/profiles/backend/</loc>
     <xhtml:link
                 rel="alternate"
@@ -279,23 +618,6 @@
                 hreflang="fr"
                 href="http://monkeypatch.gitlab.io/palm-tree/careers/profiles/backend/"
                 />
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/blog/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/brainfuck/</loc>
-    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/breizhcamp/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -325,42 +647,6 @@
                 hreflang="fr"
                 href="http://monkeypatch.gitlab.io/palm-tree/categories/"
                 />
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/clojure/</loc>
-    <lastmod>2018-09-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/clojutre/</loc>
-    <lastmod>2018-09-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/code/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/conf/</loc>
-    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/conference/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/console/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -448,30 +734,6 @@
   </url>
   
   <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/cookie/</loc>
-    <lastmod>2016-08-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/css/</loc>
-    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/databases/</loc>
-    <lastmod>2018-07-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/dev/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://monkeypatch.gitlab.io/palm-tree/careers/profiles/devops/</loc>
     <xhtml:link
                 rel="alternate"
@@ -483,30 +745,6 @@
                 hreflang="fr"
                 href="http://monkeypatch.gitlab.io/palm-tree/careers/profiles/devops/"
                 />
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/devfest/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/devoxx/</loc>
-    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/distributed-systems/</loc>
-    <lastmod>2018-07-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/dod/</loc>
-    <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -622,18 +860,6 @@
   </url>
   
   <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/feign/</loc>
-    <lastmod>2018-02-05T13:47:57+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/flink/</loc>
-    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://monkeypatch.gitlab.io/palm-tree/careers/profiles/frontend/</loc>
     <xhtml:link
                 rel="alternate"
@@ -645,66 +871,6 @@
                 hreflang="fr"
                 href="http://monkeypatch.gitlab.io/palm-tree/careers/profiles/frontend/"
                 />
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/functional/</loc>
-    <lastmod>2016-11-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/functionalprogramming/</loc>
-    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/gaming/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/go/</loc>
-    <lastmod>2018-02-05T17:47:57+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/java/</loc>
-    <lastmod>2016-11-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/jepsen/</loc>
-    <lastmod>2017-08-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/jotb/</loc>
-    <lastmod>2018-07-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/kafka/</loc>
-    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/kotlin/</loc>
-    <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/lambdaworld/</loc>
-    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -736,24 +902,6 @@
   </url>
   
   <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/lolcode/</loc>
-    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/mixit/</loc>
-    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/mktd/</loc>
-    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://monkeypatch.gitlab.io/palm-tree/careers/profiles/mobile/</loc>
     <xhtml:link
                 rel="alternate"
@@ -765,36 +913,6 @@
                 hreflang="fr"
                 href="http://monkeypatch.gitlab.io/palm-tree/careers/profiles/mobile/"
                 />
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/monkeytechday/</loc>
-    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/nantes/</loc>
-    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/nativescript/</loc>
-    <lastmod>2016-11-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/ngvikings/</loc>
-    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/nodejs/</loc>
-    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -868,82 +986,6 @@
   </url>
   
   <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/react/</loc>
-    <lastmod>2018-02-05T14:47:57+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/reactive/</loc>
-    <lastmod>2018-02-05T15:47:57+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/rest/</loc>
-    <lastmod>2016-08-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/retro/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/retrofit/</loc>
-    <lastmod>2018-02-05T13:47:57+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/rust/</loc>
-    <lastmod>2018-02-05T17:47:57+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/rx/</loc>
-    <lastmod>2016-11-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/rxjs/</loc>
-    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/sunnytech/</loc>
-    <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/swift/</loc>
-    <lastmod>2018-02-05T16:47:57+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/</loc>
-    <lastmod>2016-11-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://monkeypatch.gitlab.io/palm-tree/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://monkeypatch.gitlab.io/palm-tree/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>http://monkeypatch.gitlab.io/palm-tree/team/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -959,36 +1001,6 @@
   </url>
   
   <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/tech-addicts/</loc>
-    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/tech-days/</loc>
-    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/techno/</loc>
-    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/testing/</loc>
-    <lastmod>2017-08-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/tic80/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://monkeypatch.gitlab.io/palm-tree/careers/assets/hands/</loc>
     <xhtml:link
                 rel="alternate"
@@ -1000,12 +1012,6 @@
                 hreflang="fr"
                 href="http://monkeypatch.gitlab.io/palm-tree/careers/assets/hands/"
                 />
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/typescript/</loc>
-    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1048,12 +1054,6 @@
                 hreflang="fr"
                 href="http://monkeypatch.gitlab.io/palm-tree/careers/assets/heart/"
                 />
-  </url>
-  
-  <url>
-    <loc>http://monkeypatch.gitlab.io/palm-tree/tags/websecurity/</loc>
-    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
